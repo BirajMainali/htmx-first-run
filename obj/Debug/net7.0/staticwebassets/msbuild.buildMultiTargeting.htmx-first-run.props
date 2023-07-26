@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\htmx-first-run.props" />
-</Project>
