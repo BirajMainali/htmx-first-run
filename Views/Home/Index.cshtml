@@ -1,0 +1,33 @@
+﻿@model htmx_first_run.Controllers.ProductCreateModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container mt-5" id="target">
+    <div class="card mx-auto col-lg-6 col-md-8 col-sm-10 text-center p-4">
+        <h2 class="fs-1 mb-4">
+            Create an Product
+        </h2>
+        <hr class="my-4">
+        <form hx-post="/Home/Index" hx-target="#target" class="row g-3">
+            <div class="col-md-6">
+                <label asp-for="Name" class="form-label"></label>
+                <input type="text" class="form-control" asp-for="Name" placeholder="Enter product name" required>
+            </div>
+            <div class="col-md-6">
+                <label asp-for="Price" class="form-label"></label>
+                <div class="input-group">
+                    <span class="input-group-text">$</span>
+                    <input type="number" class="form-control" asp-for="Price" placeholder="Enter price" required>
+                </div>
+            </div>
+            <div class="col-12">
+                <label asp-for="Description" class="form-label"></label>
+                <textarea class="form-control" asp-for="Description" placeholder="Enter product description" rows="4" required></textarea>
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Create Product</button>
+            </div>
+        </form>
+    </div>
+</div>

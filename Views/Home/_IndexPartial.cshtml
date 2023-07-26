@@ -1,0 +1,28 @@
+﻿@model htmx_first_run.Controllers.ProductCreateModel
+
+<div class="container mt-5" id="target">
+    <div class="mx-auto col-lg-6 col-md-8 col-sm-10 p-4">
+        <table class="table table-bordered table-striped">
+            <thead>
+            <tr>
+                <th colspan="2" class="text-center"><h3>Product Details</h3></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">Product Name</th>
+                <td>@Model.Name</td>
+            </tr>
+            <tr>
+                <th scope="row">Price</th>
+                <td>@Model.Price</td>
+            </tr>
+            <tr>
+                <th scope="row">Description</th>
+                <td>@Model.Description</td>
+            </tr>
+            </tbody>
+        </table>
+        <a asp-action="Index" class="btn btn-primary">Back</a>
+    </div>
+</div>

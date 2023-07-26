@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "htmx-first-run", "htmx-first-run.csproj", "{D6876078-3C85-4DB3-84D0-DEF3A4E57AD4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6876078-3C85-4DB3-84D0-DEF3A4E57AD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6876078-3C85-4DB3-84D0-DEF3A4E57AD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6876078-3C85-4DB3-84D0-DEF3A4E57AD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6876078-3C85-4DB3-84D0-DEF3A4E57AD4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
